@@ -1,15 +1,20 @@
+
+/* univarsal for margiin and padding */
+
 *{
     margin: 0;
     padding: 0;
     
     
 }
+/* body is used for bulb pic */
 .body{
 background-image: url(../source/banner2.png);
 height:680px;
 width: 100%;
 
 }
+/* this text is for bulb pic text */
 .text{
      padding:160px;
 text-align: right;
@@ -17,6 +22,7 @@ font-size: 30px;
 font-family: arial;
 
 }
+/* span has used for the font family of the bulb pic test */
 span{
     font-size:10px;
     font-family: arial;
@@ -29,11 +35,12 @@ button{
     margin-top:20px;
     border-radius: 4px;
 }
- .photo-text{
+ .personphoto-text{
     margin: 90px;
     display: flex;background-color: rgb(165, 255, 255);
     border-radius: 30px;
  }
+ /* these are used for the text located beside the person */
  .bptext{
     margin-top: 250px;
  }
@@ -51,6 +58,7 @@ font-size: 40px;
     background-color: orangered;
     font-size:40px;
 }
+/* i have worked individually for each icon */
 .icon-pic{
 position: relative;
 left: 200px;
@@ -82,6 +90,7 @@ margin-right:15%;
     position: relative;
     left: 155px;
 }
+/* .sub has used for each text which is under the icon name */
 .sub{
     display: flex;
     position: relative;
@@ -90,7 +99,7 @@ margin-right:15%;
 }
 .sub4{
     position: relative;
-    top: 20px;
+    
     left:67%;
 }
 .sub3{
@@ -105,7 +114,7 @@ margin-right:15%;
     position: relative;
     left:14%;
 }
-
+/* this is used for the watch pic */
 .watch-text{
     background-image:linear-gradient(to left, rgba(252, 247, 245, 0.52),
 rgba(220, 106, 13, 0.73)), url('../source/watch.png');
@@ -118,7 +127,7 @@ rgba(220, 106, 13, 0.73)), url('../source/watch.png');
 
 
 }
-
+/* here i have worked for the footer */
    footer{
     background-color: black;
     position: relative;
@@ -133,7 +142,18 @@ rgba(220, 106, 13, 0.73)), url('../source/watch.png');
     display: flex;
     justify-content: space-between;
    }
-.last-image{
-    height: 40px;
-    width: 30px;
+   /* failed to fixed image */
+.last-image1{
+    height: 50px;
+    width: 45px;
+    position: relative;
+    left: 100px;
+}
+.last-image2{
+    position: relative;
+    margin-left: 1px;
+}
+.last-image3{
+    position: relative;
+    
 }
